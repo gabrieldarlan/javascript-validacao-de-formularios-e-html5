@@ -40,13 +40,13 @@
         class="flex flex--coluna">
         <div class="input-container">
           <input name="nome" id="nome" class="input" type="text"
-            placeholder="Nome">
+            placeholder="Nome" data-tipo="nome" required>
           <label class="input-label" for="nome">Nome</label>
           <span class="input-mensagem-erro">Este campo não está válido</span>
         </div>
         <div class="input-container cadastro__preco-container">
           <input name="preco" id="preco" class="input" type="text"
-            placeholder="Preço">
+            placeholder="Preço" data-tipo="preco" required>
           <label class="input-label" for="preco">Preço</label>
           <span class="input-mensagem-erro">Este campo não está válido</span>
         </div>
@@ -61,5 +61,6 @@
     </section>
   </main>
 </body>
+<script src="js/app.js" type="module"></script>
 
 </html>
